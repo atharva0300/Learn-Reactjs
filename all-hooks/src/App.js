@@ -5,11 +5,18 @@ import UseStateHook from './components/UseStateHook';
 
 import UseReducerHook from './components/UseReducerHook';
 
+import UseEffectHook from './components/UseEffectHook';
+import UseRefHook from './components/UseRefHook';
+
+
+
 function App() {
   return (
     <div className="App">
       {/*<UseStateHook />*/}
       {/*<UseReducerHook />*/}
+      {/*<UseEffectHook />*/}
+      <UseRefHook />
     </div>
   );
 }
