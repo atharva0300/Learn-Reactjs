@@ -1,11 +1,12 @@
 import React from 'react';
 import './App.css'
+import Counter from './features/counter/Counter';
 
 
 function App() {
   return (
     <div className="App">
-      <h2>This is an App</h2>
+      <Counter />
     </div>
   );
 }
