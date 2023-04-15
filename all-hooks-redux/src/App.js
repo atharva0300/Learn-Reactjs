@@ -14,6 +14,7 @@ import UseContextHook from './components/UseContextHook';
 import UseMemoHook from './components/UseMemoHook';
 import UseCallbackHook from './components/UseCallbackHook';
 
+import Redux from './redux/Redux'
 
 
 function App() {
@@ -28,8 +29,12 @@ function App() {
       {/*<ParentImperativeHandle />*/}
       {/*<UseContextHook />*/}
       {/*<UseMemoHook />*/}
-      <UseCallbackHook />
-    </div>
+      {/*<UseCallbackHook />*/}
+
+
+      {/*   REDUX      */}
+      <Redux />
+    </div> 
   );
 }
 
