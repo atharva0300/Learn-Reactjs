@@ -7,6 +7,11 @@ import UseReducerHook from './components/UseReducerHook';
 
 import UseEffectHook from './components/UseEffectHook';
 import UseRefHook from './components/UseRefHook';
+import UseLayoutEffect from './components/UseLayoutEffect';
+import UseImperativeHandle from './components/UseImperativeHandleHook';
+import ParentImperativeHandle from './components/ParentImperativeHandle';
+import UseContextHook from './components/UseContextHook';
+import UseMemoHook from './components/UseMemoHook';
 
 
 
@@ -16,7 +21,12 @@ function App() {
       {/*<UseStateHook />*/}
       {/*<UseReducerHook />*/}
       {/*<UseEffectHook />*/}
-      <UseRefHook />
+      {/*<UseRefHook />*/}
+      {/*<UseLayoutEffect />*/}
+      {/*<UseImperativeHandle />*/}
+      {/*<ParentImperativeHandle />*/}
+      {/*<UseContextHook />*/}
+      <UseMemoHook />
     </div>
   );
 }
