@@ -12,6 +12,7 @@ import UseImperativeHandle from './components/UseImperativeHandleHook';
 import ParentImperativeHandle from './components/ParentImperativeHandle';
 import UseContextHook from './components/UseContextHook';
 import UseMemoHook from './components/UseMemoHook';
+import UseCallbackHook from './components/UseCallbackHook';
 
 
 
@@ -26,7 +27,8 @@ function App() {
       {/*<UseImperativeHandle />*/}
       {/*<ParentImperativeHandle />*/}
       {/*<UseContextHook />*/}
-      <UseMemoHook />
+      {/*<UseMemoHook />*/}
+      <UseCallbackHook />
     </div>
   );
 }
