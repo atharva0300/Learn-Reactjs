@@ -5,7 +5,7 @@ import reportWebVitals from './reportWebVitals';
 import './index.css';
 
 // importing the store and the Provider from @redux-toolkit
-import { Store } from 'redux';
+import store from './store';
 import { Provider } from 'react-redux';
 
 
@@ -14,7 +14,7 @@ const root = createRoot(container);
 
 root.render(
   <React.StrictMode>
-    <Provider>
+    <Provider store = {store}>
       <App />
     </Provider>
   </React.StrictMode>
